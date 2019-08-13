@@ -1,0 +1,24 @@
+<%include  partials/header%>
+
+<div id="diff">
+<h1>Want to see it again?</h1>
+
+<form action="/login" method="POST">
+    <div class="in">
+        <i class="far fa-user"></i>
+        <input type="text" name="username" placeholder="username">
+    </div>
+    <div class="in">
+        <i class="fas fa-unlock"></i>
+        <input type="password" name="password" placeholder="* * * * * *">
+    </div>
+    <button>Login</button>
+</form>
+
+<li><a href="/register">SignUp!</a></li>
+<li><a href="/login">Login!</a></li>
+<li><a href="/logout">LogOut!</a></li>
+</div>
+
+
+<%include partials/footer%>
